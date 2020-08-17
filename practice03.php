@@ -20,6 +20,5 @@ $fruits = array ("apple", "banana", "lemon");
 echo count($fruits);
 
 for ($i = 0; $i < count($fruits); $i++) {
-    echo $fruits[$i];
-    echo "\n";
+    echo $fruits[$i] . "\n";
 }
