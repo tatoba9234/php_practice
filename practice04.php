@@ -1,11 +1,11 @@
 <?php
 
-function sum(){
+function sum($max){
     $result = 0;
-    for($i = 1; $i <= 10; $i++){
+    for($i = 1; $i <= $max; $i++){
         $result += $i;
     }
     return $result;
 }
-echo sum();
+echo sum(100);
 ?>
